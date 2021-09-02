@@ -1,6 +1,6 @@
 # AWS Credentials:
-awsProfile: default      # aws configure list-profiles
-awsUsername: jason.krause     # aws sts get-caller-identity --query Arn --output text --profile <YOUR_PROFILE> | cut -f 2 -d '/'
+awsProfile: <YOUR_PROFILE>       # aws configure list-profiles
+awsUsername: <YOUR_USERNAME>     # aws sts get-caller-identity --query Arn --output text --profile <YOUR_PROFILE> | cut -f 2 -d '/'
 
 # EC2 Instance Options:
 instanceType: t2.2xlarge
@@ -10,5 +10,5 @@ volumeSize: 50
 k3dVersion: v4.4.7
 
 # Registry Credentials (for installing Flux):
-registryUsername: Jason_Krause
-registryPassword: 9zn8nvhwfM
+registryUsername: <YOUR_REGISTRY1_USERNAME>
+registryPassword: <YOUR_REGISTRY1_PASSWORD>
