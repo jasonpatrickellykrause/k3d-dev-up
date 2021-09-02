@@ -14,7 +14,7 @@ Deploy k3d dev environment to AWS, including:
 ## Prerequisites
 
 - [AWS CLI version 2](https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2.html)
-- [Terraform]
+- [Terraform](https://www.terraform.io/downloads.html)
 - [kubectl](https://kubernetes.io/docs/tasks/tools/#kubectl)
 
 Shell commands used:
