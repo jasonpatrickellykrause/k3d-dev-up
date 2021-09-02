@@ -17,6 +17,8 @@ Deploy k3d dev environment to AWS, including:
 - [Terraform](https://www.terraform.io/downloads.html)
 - [kubectl](https://kubernetes.io/docs/tasks/tools/#kubectl)
 
+> Note for WSL Users: Run `Terraform` from the native WSL file system and not a `/mnt` mapped to a NTFS file system. The CHMOD on the PEM file will fail.
+
 Shell commands used:
 
 - `scp` - to copy the remote kubeconfig to local machine
