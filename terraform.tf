@@ -1,5 +1,5 @@
 data "http" "myip" {
-  url = "https://checkip.amazonaws.com"
+  url = "http://ipv4.icanhazip.com"
 }
 
 terraform {
